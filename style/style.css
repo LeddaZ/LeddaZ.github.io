@@ -73,24 +73,3 @@ button {
         width: 120px;
     }
 }
-
-/* Custom scrollbar */
-/* Width */
-::-webkit-scrollbar {
-    width: 10px;
-}
-  
-/* Track */
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-  
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: rgb(55, 55, 55);
-}
-  
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: rgb(32, 32, 32);
-}
