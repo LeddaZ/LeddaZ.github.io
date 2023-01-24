@@ -63,10 +63,10 @@ button {
 /* Responsive layout */
 @media only screen and (max-width: 1100px) {
     h1 {
-        font-size: 96px;
+        font-size: 72px;
     }
     body {
-        font-size: 36px;
+        font-size: 24px;
     }
     img.logo {
         height: 120px;
