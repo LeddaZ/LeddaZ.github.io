@@ -41,25 +41,6 @@ img.logo {
     filter: drop-shadow(3px 3px 3px black);
 }
 
-p.cringefox {
-    display: none;
-}
-
-button {
-    background: white;
-    border: none;
-    color: black;
-    border-radius: 12px;
-    font-size: 22px;
-    position: fixed;
-    top: 5px;
-    right: 5px;
-    text-align: right;
-    text-shadow: none;
-    vertical-align: top;
-    padding: 5px;
-}
-
 /* Responsive layout */
 @media only screen and (max-width: 1100px) {
     h1 {
