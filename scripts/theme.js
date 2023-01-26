@@ -5,15 +5,6 @@ $(document).ready(function() {
     const logos = ["github", "instagram", "telegram", "twitter", "youtube"];
 
     if (darkThemeMq.matches) {
-        $("html").css("background-color", "rgb(230, 230, 230)");
-        $("*").not("a").css("color", "black");
-        $("a").css("color", "rgb(0, 60, 20)");
-        $("*").css("text-shadow", "none");
-        for(let i = 0; i < logos.length; i++) {
-            $('img[src="' + "./assets/logos/dark/" + logos[i] + ".svg" + '"]').attr('src', "./assets/logos/light/" + logos[i] + ".svg");
-        }
-        $("img").css("filter", "none");
-    } else {
         $("html").css("background-color", "#101010");
         $("*").not("a").css("color", "white");
         $("a").css("color", "rgb(0, 255, 85)");
@@ -22,6 +13,15 @@ $(document).ready(function() {
             $('img[src="' + "./assets/logos/light/" + logos[i] + ".svg" + '"]').attr('src', "./assets/logos/dark/" + logos[i] + ".svg");
         }
         $("img").css("filter", "drop-shadow(3px 3px 3px black)");
+    } else {
+        $("html").css("background-color", "rgb(230, 230, 230)");
+        $("*").not("a").css("color", "black");
+        $("a").css("color", "rgb(0, 60, 20)");
+        $("*").css("text-shadow", "none");
+        for(let i = 0; i < logos.length; i++) {
+            $('img[src="' + "./assets/logos/dark/" + logos[i] + ".svg" + '"]').attr('src', "./assets/logos/light/" + logos[i] + ".svg");
+        }
+        $("img").css("filter", "none");
     }
 
 })
