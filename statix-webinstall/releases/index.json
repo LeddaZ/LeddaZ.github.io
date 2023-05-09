@@ -10,6 +10,10 @@
             {
                 "version": "v6.2-20230423",
                 "url": "https://downloads.statixos.com/13-TIRAMISU/cheetah/fastbootimages/statix_cheetah-20230423-13-v6.2-TIRAMISU-img.zip"
+            },
+            {
+                "version": "v6.2-20230508",
+                "url": "https://downloads.statixos.com/13-TIRAMISU/cheetah/fastbootimages/statix_cheetah-20230508-13-v6.2-TIRAMISU-img.zip"
             }
         ],
         "lemonadep": [
@@ -22,18 +26,30 @@
             {
                 "version": "v6.2-20230425",
                 "url": "https://downloads.statixos.com/13-TIRAMISU/oriole/fastbootimages/statix_oriole-20230425-13-v6.2-TIRAMISU-img.zip"
+            },
+            {
+                "version": "v6.2-20230508",
+                "url": "https://downloads.statixos.com/13-TIRAMISU/oriole/fastbootimages/statix_oriole-20230508-13-v6.2-TIRAMISU-img.zip"
             }
         ],
         "panther": [
             {
                 "version": "v6.2-20230423",
                 "url": "https://downloads.statixos.com/13-TIRAMISU/panther/fastbootimages/statix_panther-20230423-13-v6.2-TIRAMISU-img.zip"
+            },
+            {
+                "version": "v6.2-20230508",
+                "url": "https://downloads.statixos.com/13-TIRAMISU/panther/fastbootimages/statix_panther-20230508-13-v6.2-TIRAMISU-img.zip"
             }
         ],
         "raven": [
             {
                 "version": "v6.2-20230425",
                 "url": "https://downloads.statixos.com/13-TIRAMISU/raven/fastbootimages/statix_raven-20230425-13-v6.2-TIRAMISU-img.zip"
+            },
+            {
+                "version": "v6.2-20230508",
+                "url": "https://downloads.statixos.com/13-TIRAMISU/raven/fastbootimages/statix_raven-20230508-13-v6.2-TIRAMISU-img.zip"
             }
         ],
         "sake": [
