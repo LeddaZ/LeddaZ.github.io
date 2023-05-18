@@ -6,6 +6,12 @@
                 "url": "https://downloads.statixos.com/13-TIRAMISU/alioth/fastbootimages/statix_alioth-20230505-13-v6.2-TIRAMISU-img.zip"
             }
         ],
+        "blueline": [
+            {
+                "version": "v6.2-20230517",
+                "url": "https://downloads.statixos.com/13-TIRAMISU/blueline/fastbootimages/statix_blueline-20230517-13-v6.2-TIRAMISU-img.zip"
+            }
+        ],
         "cheetah": [
             {
                 "version": "v6.2-20230423",
@@ -14,6 +20,12 @@
             {
                 "version": "v6.2-20230508",
                 "url": "https://downloads.statixos.com/13-TIRAMISU/cheetah/fastbootimages/statix_cheetah-20230508-13-v6.2-TIRAMISU-img.zip"
+            }
+        ],
+        "crosshatch": [
+            {
+                "version": "v6.2-20230517",
+                "url": "https://downloads.statixos.com/13-TIRAMISU/crosshatch/fastbootimages/statix_crosshatch-20230517-13-v6.2-TIRAMISU-img.zip"
             }
         ],
         "lemonadep": [
@@ -56,6 +68,10 @@
             {
                 "version": "v6.2-20230506",
                 "url": "https://downloads.statixos.com/13-TIRAMISU/sake/fastbootimages/statix_sake-20230506-13-v6.2-TIRAMISU-img.zip"
+            },
+            {
+                "version": "v6.2-20230518",
+                "url": "https://downloads.statixos.com/13-TIRAMISU/sake/fastbootimages/statix_sake-20230518-13-v6.2-TIRAMISU-img.zip"
             }
         ]
     }
