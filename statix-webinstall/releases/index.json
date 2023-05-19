@@ -32,6 +32,10 @@
             {
                 "version": "v6.2-20230421",
                 "url": "https://downloads.statixos.com/13-TIRAMISU/lemonadep/fastbootimages/statix_lemonadep-20230421-13-v6.2-TIRAMISU-img.zip"
+            },
+            {
+                "version": "v6.2-20230518",
+                "url": "https://downloads.statixos.com/13-TIRAMISU/lemonadep/fastbootimages/statix_lemonadep-20230518-13-v6.2-TIRAMISU-img.zip"
             }
         ],
         "oriole": [
