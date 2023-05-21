@@ -28,6 +28,12 @@
                 "url": "https://downloads.statixos.com/13-TIRAMISU/crosshatch/fastbootimages/statix_crosshatch-20230517-13-v6.2-TIRAMISU-img.zip"
             }
         ],
+        "lemonade": [
+            {
+                "version": "v6.2-20230519",
+                "url": "https://downloads.statixos.com/13-TIRAMISU/lemonade/fastbootimages/statix_lemonade-20230519-13-v6.2-TIRAMISU-img.zip"
+            }
+        ],
         "lemonadep": [
             {
                 "version": "v6.2-20230421",
