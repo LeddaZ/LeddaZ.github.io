@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
     const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
 
@@ -9,7 +9,7 @@ $(document).ready(function() {
         $("*").not("a").css("color", "white");
         $("a").css("color", "rgb(0, 255, 85)");
         $("*").css("text-shadow", "2px 2px 2px black");
-        for(let i = 0; i < logos.length; i++) {
+        for (let i = 0; i < logos.length; i++) {
             $('img[src="' + "./assets/logos/light/" + logos[i] + ".svg" + '"]').attr('src', "./assets/logos/dark/" + logos[i] + ".svg");
         }
         $("img").css("filter", "drop-shadow(3px 3px 3px black)");
@@ -18,7 +18,7 @@ $(document).ready(function() {
         $("*").not("a").css("color", "black");
         $("a").css("color", "rgb(0, 60, 20)");
         $("*").css("text-shadow", "none");
-        for(let i = 0; i < logos.length; i++) {
+        for (let i = 0; i < logos.length; i++) {
             $('img[src="' + "./assets/logos/dark/" + logos[i] + ".svg" + '"]').attr('src', "./assets/logos/light/" + logos[i] + ".svg");
         }
         $("img").css("filter", "none");

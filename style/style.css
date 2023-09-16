@@ -9,7 +9,7 @@
 
 html {
     background-color: #101010;
-    height:100%;
+    height: 100%;
 }
 
 body {
@@ -46,9 +46,11 @@ img.logo {
     h1 {
         font-size: 52px;
     }
+
     body {
         font-size: 20px;
     }
+
     img.logo {
         height: 50px;
         width: 50px;
