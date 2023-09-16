@@ -2,10 +2,10 @@ $(document).ready(function () {
 
     const assetsPathDark = "./assets/logos/dark/";
     const assetsPathLight = "./assets/logos/light/";
-    const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+    const darkTheme = window.matchMedia("(prefers-color-scheme: dark)");
     const logos = ["github", "instagram", "telegram", "twitter", "youtube"];
 
-    if (darkThemeMq.matches) {
+    if (darkTheme.matches) {
         $("html").css("background-color", "#101010");
         $("*").not("a").css("color", "white");
         $("a").css("color", "rgb(0, 255, 85)");
