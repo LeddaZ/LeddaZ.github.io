@@ -11,24 +11,12 @@ body {
     perspective: 1000px;
 }
 
-div.text3D {
+div.spin {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotateY(0deg);
-    font-size: 48px;
-    font-family: 'Comic Sans MS', sans-serif;
     animation: rotateText 2.5s linear infinite;
-}
-
-div.text3Drev {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotateY(0deg);
-    font-size: 48px;
-    font-family: 'Comic Sans MS', sans-serif;
-    animation: rotateText 0.7s reverse infinite;
 }
 
 @keyframes rotateText {
