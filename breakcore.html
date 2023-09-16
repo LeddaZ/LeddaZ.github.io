@@ -6,80 +6,10 @@
     <meta charset="utf-8">
     <meta name="description" content="This is indeed a nice website.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            overflow: hidden;
-            animation: rgb 2s alternate-reverse infinite;
-            background: url('./assets/breakcore/cute_girl.png');
-            background-size: contain;
-        }
-
-        #container {
-            width: 100%;
-            height: 100vh;
-            perspective: 1000px;
-        }
-
-        div.text3D {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%) rotateY(0deg);
-            font-size: 48px;
-            font-family: 'Comic Sans MS', sans-serif;
-            animation: rotateText 2.5s linear infinite;
-        }
-
-        div.text3Drev {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%) rotateY(0deg);
-            font-size: 48px;
-            font-family: 'Comic Sans MS', sans-serif;
-            animation: rotateText 0.7s reverse infinite;
-        }
-
-        @keyframes rotateText {
-            0% {
-                transform: translate(-50%, -50%) rotateY(0deg);
-            }
-
-            100% {
-                transform: translate(-50%, -50%) rotateY(360deg);
-            }
-        }
-
-        @keyframes rgb {
-            0% {
-                background-color: red;
-            }
-
-            20% {
-                background-color: yellow;
-            }
-
-            40% {
-                background-color: orange;
-            }
-
-            60% {
-                background-color: pink;
-            }
-
-            80% {
-                background-color: black;
-            }
-
-            100% {
-                background-color: white;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="./style/style_breakcore.css" type="text/css">
 </head>
 
 <body>
-
     <div id="container">
         <audio controls autoplay>
             <source src="./assets/breakcore/cute_music.mp3" type="audio/mpeg">
