@@ -16,10 +16,10 @@ div.spin {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotateY(0deg);
-    animation: rotateText 2.5s linear infinite;
+    animation: speen 2.5s linear infinite;
 }
 
-@keyframes rotateText {
+@keyframes speen {
     0% {
         transform: translate(-50%, -50%) rotateY(0deg);
     }
