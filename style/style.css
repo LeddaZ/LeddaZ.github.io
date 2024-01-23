@@ -3,18 +3,18 @@
 * {
     font-family: 'Fira Code', 'sans-serif';
     letter-spacing: 1px;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
     text-align: center;
 }
 
 html {
-    background-color: #101010;
+    background-color: #1e1e2e;
     height: 100%;
 }
 
 body {
     font-size: 22px;
-    color: white;
+    color: #cdd6f4;
 }
 
 h1 {
@@ -30,9 +30,14 @@ ul.foot > li {
 }
 
 a {
-    color: rgb(0, 255, 85);
+    color: #f9e2af;
     font-weight: bold;
     text-decoration: none;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+a:hover {
+    color: #eba0ac;
 }
 
 img.logo {
