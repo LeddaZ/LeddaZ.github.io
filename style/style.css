@@ -32,6 +32,10 @@ p#footer {
     font-size: 18px;
 }
 
+::selection {
+    color: black;
+    background: #a6e3a1;
+}
 a {
     color: #f9e2af;
     font-weight: bold;
