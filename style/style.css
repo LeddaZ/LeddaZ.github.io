@@ -45,9 +45,9 @@ a:hover {
 }
 
 img.logo {
-    height: 65px;
-    width: 65px;
-    filter: drop-shadow(3px 3px 3px black);
+    height: 60px;
+    width: 60px;
+    filter: drop-shadow(1px 1px 1px black);
 }
 
 /* Responsive layout */
