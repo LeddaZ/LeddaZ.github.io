@@ -29,6 +29,10 @@ ul.foot > li {
     display: inline-block;
 }
 
+p#footer {
+    font-size: 18px;
+}
+
 a {
     color: #f9e2af;
     font-weight: bold;
