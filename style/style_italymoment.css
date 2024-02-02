@@ -2,4 +2,6 @@
 
 h1#counter {
     font-size: 120px;
+    margin-top: -15px;
+    margin-bottom: -15px;
 }
