@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-    color: #eba0ac;
+    color: #a6e3a1;
 }
 
 img.logo {
@@ -66,5 +66,23 @@ img.logo {
     img.logo {
         height: 50px;
         width: 50px;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    html {
+        background-color: #eff1f5;
+    }
+    
+    body {
+        color: #4c4f69;
+    }
+
+    a {
+        color: #df8e1d;
+    }
+
+    a:hover {
+        color: #40a02b;
     }
 }
