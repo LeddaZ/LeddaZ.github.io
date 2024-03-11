@@ -1,88 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 * {
-    font-family: 'Roboto Mono', sans-serif;
-    letter-spacing: 1px;
-    text-align: center;
+  font-family: 'Roboto Mono', sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
 html {
-    background-color: #1e1e2e;
-    height: 100%;
+  background-color: #1e1e2e;
+  height: 100%;
 }
 
 body {
-    font-size: 22px;
-    color: #cdd6f4;
+  font-size: 22px;
+  color: #cdd6f4;
 }
 
 h1 {
-    font-size: 48px;
+  font-size: 48px;
 }
 
 ul {
-    padding: 0px;
+  padding: 0px;
 }
 
-ul.foot>li {
-    display: inline-block;
+ul.foot > li {
+  display: inline-block;
 }
 
 span#footer-tail {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 ::selection {
-    color: black;
-    background: #a6e3a1;
+  color: black;
+  background: #a6e3a1;
 }
 
 a {
-    color: #f9e2af;
-    font-weight: bold;
-    text-decoration: none;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  color: #f9e2af;
+  font-weight: bold;
+  text-decoration: none;
+  transition:
+    color 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
 }
 
 a:hover {
-    color: #a6e3a1;
+  color: #a6e3a1;
 }
 
 img.logo {
-    height: 60px;
-    width: 60px;
+  height: 60px;
+  width: 60px;
 }
 
 /* Responsive layout */
 @media only screen and (max-width: 1100px) {
-    h1 {
-        font-size: 42px;
-    }
+  h1 {
+    font-size: 42px;
+  }
 
-    body {
-        font-size: 20px;
-    }
+  body {
+    font-size: 20px;
+  }
 
-    img.logo {
-        height: 50px;
-        width: 50px;
-    }
+  img.logo {
+    height: 50px;
+    width: 50px;
+  }
 }
 
 @media (prefers-color-scheme: light) {
-    html {
-        background-color: #eff1f5;
-    }
-    
-    body {
-        color: #4c4f69;
-    }
+  html {
+    background-color: #eff1f5;
+  }
 
-    a {
-        color: #df8e1d;
-    }
+  body {
+    color: #4c4f69;
+  }
 
-    a:hover {
-        color: #40a02b;
-    }
+  a {
+    color: #df8e1d;
+  }
+
+  a:hover {
+    color: #40a02b;
+  }
 }

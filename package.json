@@ -1,0 +1,22 @@
+{
+  "name": "leddaz.github.io",
+  "version": "1.0.0",
+  "description": "My website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeddaZ/LeddaZ.github.io.git"
+  },
+  "author": "LeddaZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeddaZ/LeddaZ.github.io/issues"
+  },
+  "homepage": "https://github.com/LeddaZ/LeddaZ.github.io#readme",
+  "dependencies": {
+    "prettier": "^3.2.5"
+  }
+}
