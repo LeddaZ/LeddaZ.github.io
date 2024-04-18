@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root {
+  --orange: hsl(31, 77%, 52%);
+  --cyan: hsl(184, 100%, 22%);
+  --dark-cyan: hsl(179, 100%, 13%);
+  --white: hsla(0, 0%, 100%, 0.75);
+  --background: hsl(0, 0%, 95%);
+
+  --gray: #999;
+  --dark-gray: #555;
+  --black: #000;
+}
+
+p,
+button {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+  background-color: var(--background);
+  overflow: hidden;
+  display: flex;
+  height: 100vh;
+  color: var(--white);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 300px;
+  height: 450px;
+  padding: 42px;
+  position: relative;
+}
+
+.sedan {
+  background-color: var(--orange);
+  border-radius: 10px 0px 0px 10px;
+}
+
+.suv {
+  background-color: var(--cyan);
+}
+
+.luxury {
+  background-color: var(--dark-cyan);
+  border-radius: 0px 10px 10px 0px;
+}
+
+img {
+  margin-bottom: 35px;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--background);
+  margin-bottom: 25px;
+}
+
+p > .card {
+  color: var(--white);
+  line-height: 25px;
+}
+
+button {
+  position: absolute;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+  transition: all 0.2s ease-in-out;
+  bottom: 40px;
+  color: black;
+  mix-blend-mode: screen;
+}
+
+button:hover {
+  background-color: transparent;
+  color: var(--background);
+}
+
+@media only screen and (max-width: 844px) {
+  body {
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+    flex-wrap: wrap;
+  }
+
+  main {
+    padding: 50px 0;
+    flex-direction: column;
+  }
+
+  .sedan {
+    border-radius: 7px 7px 0 0;
+  }
+
+  .luxury {
+    border-radius: 0 0 7px 7px;
+  }
+}
