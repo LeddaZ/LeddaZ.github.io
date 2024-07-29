@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
 body {
   overflow: hidden;
   animation: rgb 2s alternate-reverse infinite;
   background: url('../assets/breakcore/cute_girl.png');
   background-size: contain;
+}
+
+p {
+  font-family: 'Pixelify Sans', sans-serif;
+  color: white;
+  font-size: 40px;
 }
 
 #container {
@@ -19,6 +27,10 @@ div.spin {
   animation: speen 1.5s linear infinite;
 }
 
+.rgb {
+  animation: rgb 5s infinite;
+}
+
 @keyframes speen {
   0% {
     transform: translate(-50%, -50%) rotateY(0deg);
@@ -31,26 +43,46 @@ div.spin {
 
 @keyframes rgb {
   0% {
-    background-color: red;
+    color: red;
+  }
+
+  10% {
+    color: yellow;
   }
 
   20% {
-    background-color: yellow;
+    color: orange;
+  }
+
+  30% {
+    color: pink;
   }
 
   40% {
-    background-color: orange;
+    color: black;
+  }
+
+  50% {
+    color: white;
   }
 
   60% {
-    background-color: pink;
+    color: black;
+  }
+
+  70% {
+    color: pink;
   }
 
   80% {
-    background-color: black;
+    color: orange;
+  }
+
+  90% {
+    color: yellow;
   }
 
   100% {
-    background-color: white;
+    color: red;
   }
 }
