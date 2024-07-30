@@ -56,7 +56,7 @@ img.logo {
 }
 
 #riitag {
-  max-width: 100%;
+  max-width: 30%;
 }
 
 /* Responsive layout */
@@ -72,6 +72,16 @@ img.logo {
   img.logo {
     height: 50px;
     width: 50px;
+  }
+
+  #riitag {
+    max-width: 60%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #riitag {
+    max-width: 100%;
   }
 }
 
