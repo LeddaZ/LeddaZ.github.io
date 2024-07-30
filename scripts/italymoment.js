@@ -12,6 +12,8 @@ $(document).ready(function () {
 
   let year = lastCrisis.getFullYear()
 
-  $('#lastCrisisDate').html($('#lastCrisisDate').html() + year + '/' + month + '/' + day + '.')
+  $('#lastCrisisDate').html(
+    $('#lastCrisisDate').html() + ' ' + year + '/' + month + '/' + day + '.'
+  )
   $('#counter').html(days)
 })
