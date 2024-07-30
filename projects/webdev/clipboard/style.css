@@ -1,0 +1,69 @@
+body {
+  background: url('./images/bg-header-desktop.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+* {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+}
+
+#pc {
+  margin-left: -50px;
+}
+
+#features {
+  text-align: left;
+}
+
+img {
+  align-self: center;
+}
+
+.footer {
+  background-color: hsl(220, 18%, 97%);
+}
+
+/* Responsive layout */
+@media only screen and (max-width: 700px) {
+  body {
+    background: url('./images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .w-50 {
+    width: 100% !important;
+  }
+
+  .w-25 {
+    width: 100% !important;
+  }
+
+  img.mx-auto,
+  #pc {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  #features {
+    text-align: center;
+  }
+
+  .list-group-horizontal {
+    display: block;
+  }
+
+  .social {
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
