@@ -28,10 +28,6 @@ ul.foot > li {
   display: inline-block;
 }
 
-span#footer-tail {
-  font-size: 18px;
-}
-
 ::selection {
   color: black;
   background: #a6e3a1;
@@ -57,10 +53,6 @@ img.logo {
 
 #riitag {
   max-width: 30%;
-}
-
-#footer {
-  padding-bottom: 40px;
 }
 
 /* Responsive layout */
