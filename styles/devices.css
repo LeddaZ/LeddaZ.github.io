@@ -1,9 +1,14 @@
 @import 'base.css';
 
 .deviceTable,
-.laptop {
+.titleWithImg {
   display: flex;
   justify-content: center;
+}
+
+.deviceImg {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 h4 {
