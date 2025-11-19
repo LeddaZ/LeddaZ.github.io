@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,slnt,wdth,wght,GRAD,ROND@6..144,-10..0,25..151,1..1000,0..100,0..100&display=swap');
 
 * {
-  font-family: 'Fragment Mono', sans-serif;
+  font-family: 'Google Sans Flex', sans-serif;
+  font-variation-settings: 'ROND' 100;
   letter-spacing: 1px;
   text-align: center;
 }
@@ -35,7 +36,6 @@ ul.foot > li {
 
 a {
   color: #f9e2af;
-  font-weight: bold;
   text-decoration: none;
   transition:
     color 0.3s ease-in-out,
@@ -44,6 +44,11 @@ a {
 
 a:hover {
   color: #a6e3a1;
+}
+
+a,
+h4 {
+  font-weight: 600;
 }
 
 img.logo {
