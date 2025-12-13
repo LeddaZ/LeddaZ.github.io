@@ -3,7 +3,7 @@
 body {
   overflow: hidden;
   animation: rgb 2s alternate-reverse infinite;
-  background: url('../assets/breakcore/cute_girl.png');
+  background: url('../assets/breakcore/cute_girl.avif');
   background-size: contain;
 }
 
