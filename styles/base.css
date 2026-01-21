@@ -2,8 +2,6 @@
 
 * {
   font-family: 'Google Sans Flex', sans-serif;
-  font-variation-settings: 'ROND' 50;
-  letter-spacing: 1px;
   text-align: center;
 }
 
@@ -48,7 +46,7 @@ a:hover {
 
 a,
 h4 {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 img.logo {
