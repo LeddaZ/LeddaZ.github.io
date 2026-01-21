@@ -83,21 +83,3 @@ img.logo {
     max-width: 100%;
   }
 }
-
-@media (prefers-color-scheme: light) {
-  html {
-    background-color: #eff1f5;
-  }
-
-  body {
-    color: #4c4f69;
-  }
-
-  a {
-    color: #df8e1d;
-  }
-
-  a:hover {
-    color: #40a02b;
-  }
-}
