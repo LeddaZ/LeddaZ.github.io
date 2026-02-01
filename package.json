@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/LeddaZ/LeddaZ.github.io#readme",
   "devDependencies": {
-    "prettier": "^3.7.4"
+    "prettier": "^3.8.1"
   }
 }
